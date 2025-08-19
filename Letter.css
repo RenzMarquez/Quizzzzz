@@ -3,6 +3,7 @@
     padding: 5px;
     text-align: center;
     font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-weight: bold;
 }
 
 body {
@@ -22,3 +23,4 @@ body {
     border-radius: 20px;
 
 }
+
