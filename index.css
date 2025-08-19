@@ -1,0 +1,111 @@
+* {
+    color: rgb(68, 0, 255);
+    padding: 5px;
+    text-align: center;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-weight: bold;
+}
+body {
+    background-image: url('black-and-white-astronaut-1920-x-1080-4tofghaoh4vus0zg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* Optional: fix background while scrolling */
+    background-attachment: fixed;
+}
+.app{
+    background: aquamarine;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 20px;
+}
+.app h1{
+    color:#001e4d;
+    font-weight: 600px;
+    border-bottom: 1px solid #333;
+    padding-bottom: 30px;
+}
+@media (max-width: 600px) {
+    .app {
+        margin: 40px auto;
+        padding: 15px;
+    }
+
+    .quiz h2 {
+        font-size: 16px;
+    }
+
+    .btn {
+        font-size: 16px;
+        padding: 8px;
+    }
+}
+.Quiz{
+    padding: 20px 0;
+}
+.Quiz h2{
+    font-size: 18px;
+    color: #000;
+    font-weight: 600;
+}
+.btn{
+    font-size: large;
+    background: #fff;
+    color: #222;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid #222;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 6px;
+    transition: opacity 0.3s;
+}
+.btn:hover:not([disabled]){
+    background-color: rgb(3, 3, 100);
+        opacity: 0.7;
+}
+.btn:disabled{
+    cursor: no-drop;
+}
+#next-btn{
+    color: aqua;
+    font-weight: 500px;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto;
+    border-radius: 6px;
+    background-color: cadetblue;
+    cursor: pointer;
+
+}
+#next-btn:hover{
+    background-color: rgb(3, 3, 100);
+        opacity: 0.7;
+}
+#end-btn {
+    display: none;
+    color: aqua;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto;
+    border-radius: 6px;
+    background-color: darkred;
+    cursor: pointer;
+}
+
+#end-btn:hover {
+    background-color: crimson;
+    opacity: 0.8;
+}
+.correct{
+    background: green;
+}
+.incorrect{
+    background: #f70606;
+}
+

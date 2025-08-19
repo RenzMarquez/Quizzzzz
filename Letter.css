@@ -1,0 +1,24 @@
+* {
+    color: rgb(68, 0, 255);
+    padding: 5px;
+    text-align: center;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-weight: bold;
+}
+
+body {
+    background-image: url('black-and-white-astronaut-1920-x-1080-4tofghaoh4vus0zg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* Optional: fix background while scrolling */
+    background-attachment: fixed;
+}
+
+.Letter {
+    background: aquamarine;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 20px;
+}
