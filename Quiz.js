@@ -30,9 +30,9 @@ const questions = [
         question: "Which vitamin is essential for collagen synthesis and wound healing?",
         answer: [
             { text: "Vitamin A", correct: false },
-            { text: "Decrease the activation energy", correct: true },
-            { text: "Are consumed in the reaction", correct: false },
-            { text: "Provide energy to the reaction", correct: false },
+            { text: "Vitamin K", correct: false },
+            { text: "Vitamin C", correct: true },
+            { text: "Vitamin D", correct: false },
         ]
     },
     {
@@ -54,21 +54,21 @@ const questions = [
         ]
     },
     {
+        question: "Which organ is primarily responsible for filtering blood and producing urine?.",
+        answer: [
+            { text: "Liver", correct: false },
+            { text: "Kidneys", correct: true },
+            { text: "Lungs", correct: false },
+            { text: "Pancreas", correct: false },
+        ]
+    },
+    {
         question: "uhmmm may sasabihin ako sayo.",
         answer: [
             { text: "Ano yon?", correct: true },
             { text: "Papansin lang?", correct: true },
             { text: "Ano ba yan?", correct: true },
             { text: "Anoooo?", correct: true },
-        ]
-    },
-    {
-        question: "Alam mo ba...",
-        answer: [
-            { text: "Anooo?", correct: true },
-            { text: "Hindi syempre", correct: true },
-            { text: "Hindi", correct: true },
-            { text: "Ano ba yonnn?", correct: true },
         ]
     },
     {
